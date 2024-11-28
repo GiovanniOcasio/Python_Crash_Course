@@ -1,0 +1,1 @@
+This repository contains the projects listed in the No Starch Press' Python Crash Couse book. An excellent book for developing basic python skills. In the end I will use the skills learned in this book to create a penetration testing tool.
