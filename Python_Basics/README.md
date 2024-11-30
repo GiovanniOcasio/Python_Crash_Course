@@ -4,6 +4,8 @@
 The first 11 chapters of this book goes over the basics of Python, having the reader create short Python scripts to grasp an understanding of Python Fundamentals.<br />
 <br />
 <p align="center">
+ <b>Chapter 1 Setting Up Python</b><br />
+ <img src="../img/intro.png"/>
  <b>Chapter 2 Variables and Simple Data Types</b><br />
  <img src="../img/variables.png"/>
  <img src="../img/numbers.png"/>
