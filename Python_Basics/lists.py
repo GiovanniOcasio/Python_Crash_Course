@@ -19,7 +19,7 @@ print("Now let's print the last item:", bicycles[-1])
 message = f"My first bicycle was a {bicycles[-1].title()}"
 print(message)
 
-#----------------------------------------------------------------Modifying Elements of a List-----------------------------------------------------------------
+#----------------------------------------------------------------Modifying Elements of a List----------------------------------------------------------------
 #We can also modify the elements of a list by specifying the list, the element's index value we want to change, and what we want to change it to. 
 print("\n\nLet's modify our list!")
 
@@ -29,7 +29,7 @@ print("This is our current list:", motorcycles)
 motorcycles[0] = 'ducati'
 print("Now let's change honda to ducati", motorcycles)
 
-#------------------------------------------------------------------Adding Elements of a List------------------------------------------------------------------
+#------------------------------------------------------------------Adding Elements of a List-----------------------------------------------------------------
 #We can also add elements to a list by using append. Appending adds items to the end of a list without affecting other elements.
 print("\n\nLet's add elements to our list!")
 
@@ -37,7 +37,7 @@ print("This is our current list:", motorcycles)
 motorcycles.append('honda')
 print("Now let's append honda to our new list:", motorcycles)
 
-#----------------------------------------------------------------Inserting Elements of a List-----------------------------------------------------------------
+#----------------------------------------------------------------Inserting Elements of a List----------------------------------------------------------------
 #We can also insert elements into specified positions by using insert.
 print("\n\nLet's insert elements into our list")
 
@@ -46,7 +46,7 @@ print("Let's insert harley davidson into the list at index 3")
 motorcycles.insert(3, 'harley davidson')
 print(motorcycles)
 
-#-----------------------------------------------------------------Deleting Elements of a List-----------------------------------------------------------------
+#-----------------------------------------------------------------Deleting Elements of a List----------------------------------------------------------------
 #We can remove elements from a list by using del.
 print("\n\nLet's delete elements from our list!")
 
@@ -54,7 +54,7 @@ print("This is our current list:", motorcycles)
 del motorcycles[3]
 print("We removed harley davidson", motorcycles)
 
-#------------------------------------------------------------------Popping Elements of a List-----------------------------------------------------------------
+#------------------------------------------------------------------Popping Elements of a List----------------------------------------------------------------
 #Using pop we can remove an element and store it for later use. In this scenario we'll store the popped item to another variable and call it later.
 print("\n\nLet's pop elements to our list!")
 
@@ -73,7 +73,7 @@ popped_item = motorcycles.pop(2)
 print("We popped the element with the index value of 2", motorcycles)
 print("We popped", popped_item)
 
-#-----------------------------------------------------------------Removing Elements of a List-----------------------------------------------------------------
+#-----------------------------------------------------------------Removing Elements of a List----------------------------------------------------------------
 #If you don't know the index value of an element but you know the actual value you can remove that value
 print("\n\nLet's remove elements from our list!")
 
@@ -91,7 +91,7 @@ print(motorcycles)
 #Let's use f-string and new line to specify which element we removed
 print(f"\nA {favorite_bike} is my favorite motorcycle to ride!")
 
-#-----------------------------------------------------------------------Organizing List-----------------------------------------------------------------------
+#-----------------------------------------------------------------------Organizing List----------------------------------------------------------------------
 #We can organize list in different ways
 print("\n\nWe can permanently sort a list using the sort() method")
 cars = ['honda', 'bmw', 'subaru', 'audi']
@@ -113,7 +113,7 @@ print("Here's the original format", cars_2)
 cars_2.reverse()
 print("This is the list in reverse order", cars_2)
 
-#----------------------------------------------------------------------Lengtt of a List-----------------------------------------------------------------------
+#----------------------------------------------------------------------Length of a List----------------------------------------------------------------------
 #We can determine the length of a list by using the len() method
 print("\n\nLet's use the len() method to determine the length of a list")
 vehicles = ['toyota', 'camry', 'chevy', 'benz', 'honda', 'bmw', 'subaru', 'audi', 'ducati', 'yamaha', 'harley davidson']
