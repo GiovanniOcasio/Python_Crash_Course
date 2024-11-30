@@ -11,6 +11,8 @@ The first 11 chapters of this book goes over the basics of Python, having the re
  <img src="../img/numbers.png"/>
  <b>Chapter 3 Intro to Lists</b> <br />
  <img src="../img/lists.png"/>
+ <b>Chapter 4 Working with Lists</b>
+ <img src="../img/loops_and_tuples.png"/>"
 
 <!--
  ```diff
