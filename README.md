@@ -1,7 +1,7 @@
 <h1>Python Crash Course</h1>
 
 <h2>Description</h2>
-Python is a scripting language used by penetration testers to develop tools and interact with both Windows and Linux environments. Before you can build your own tools, you need to understand the basics of Python and this book does a perfect job of doing just that. Note that I keep pretty much each chapter within the same file. This is for clarity within the repository on which script goes where. Each section within the file should be in its our file so they don't impact each other. You can purchase the most up-to-date copy here: https://nostarch.com/python-crash-course-3rd-edition. 
+Python is a scripting language used by penetration testers to develop tools and interact with both Windows and Linux environments. Before you can build your own tools, you need to understand the basics of Python and this book does a perfect job of doing just that. Note, that I keep pretty much each chapter within the same file. This is for clarity within the repository, so that individuals understand which script goes where. Each section within the files should be in it's own file, so they don't impact each other during execution. You can purchase the most up-to-date copy here: https://nostarch.com/python-crash-course-3rd-edition. 
 <br />
 <br />
 <p align="center">
