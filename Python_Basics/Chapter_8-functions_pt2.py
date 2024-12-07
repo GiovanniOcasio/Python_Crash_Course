@@ -39,8 +39,14 @@ print("\n\nLet's use all functions within the pizza module")
 
 from pizza import *
 
-pizza.greetings()
-pizza.make_pizza(18, 'red peppers', 'extra cheese')
+print("\n\nLet's use all functions within the pizza module")
+
+f_name = input("What is your first name? ")
+l_name = input("What is your last name? ")
+formatted_name = greetings(f_name, l_name)
+print(f"Welcome, {formatted_name}! Let's get your order!")
+
+make_pizza(18, 'red peppers', 'extra cheese')
 
 input("Hit enter to quit")
 
