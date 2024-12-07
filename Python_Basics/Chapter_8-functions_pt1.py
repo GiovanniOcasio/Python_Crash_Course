@@ -171,3 +171,37 @@ completed_models = []
 
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
+
+#---------------------------------------------------------------Passing an Arbitrary Number of Arguments----------------------------------------------------
+#Sometimes we do not know how many arguments a function requires in advance so we need to ensure the function has the ability to accept multiple arguments
+print("Let's use * to ensure our function can accept multiple arguments!")
+
+def make_pizza(*toppings):
+	print("\nMake a pizza with the following toppings:")
+	for topping in toppings:
+		print(f"- {topping}")
+
+make_pizza('pepperoni')
+make_pizza('green peppers', 'pepperoni', 'extra cheese')
+
+#-----------------------------------------------------------Mixing Arbitrary and Positional Arguments-------------------------------------------------------
+def make_pizza(size, *toppings):
+	print(f"\nMake a pizza that is {size} inches with the following toppings:")
+	for topping in toppings:
+		print(f"- {topping}")
+
+make_pizza(14, 'pepperoni')
+make_pizza(16, 'green peppers', 'pepperoni', 'extra cheese')
+
+#----------------------------------------------------------------Using Arbitrary Keyword Arguments----------------------------------------------------------
+print("\n\nWe can use the ** to ensure that the function can accept as many key-value pairs as the calling statement provides!\n")
+
+def build_profile(first, last, **user_info):
+	user_info['first_name'] = first
+	user_info['last_name'] = last
+	return user_info
+
+user_profile = build_profile('lisa', 'carreon',
+							location='princeton',
+							field='physics')
+print(user_profile)
