@@ -37,4 +37,27 @@ print(f"{my_audi.get_descriptive_name()}")
 print(f"{my_tesla.get_descriptive_name()}")
 
 #We can also use alias similar to how we did in the functions chapter
-#----------------------------------------------------------------------------Functions----------------------------------------------------------------------
+#---------------------------------------------------------------------------Chapter Lab---------------------------------------------------------------------
+from random import randint
+
+class Die:
+
+	def __init__(self):
+		self.sides = 6
+
+	def rolled_die(self):
+		self.value = randint(1, 6)
+		print(f"I rolled a {self.value}")
+
+my_roll = Die()
+my_roll.rolled_die()
+my_roll.rolled_die()
+my_roll.rolled_die()
+my_roll.rolled_die()
+my_roll.rolled_die()
+my_roll.rolled_die()
+my_roll.rolled_die()
+my_roll.rolled_die()
+my_roll.rolled_die()
+my_roll.rolled_die()
+my_roll.rolled_die()
