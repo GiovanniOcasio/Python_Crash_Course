@@ -7,6 +7,8 @@ Python is a scripting language used by penetration testers to develop tools and 
 <p align="center">
  <b>Sublime Editor and Python</b> <br />
 <img src="./img/lists.png"/>
+ <b>Creating and Executing Scripts</b>
+<video src="./img/Python_Write.mp4" width="320" height="240></video>
 
 <h2>Languages and Utilities Used</h2>
 
